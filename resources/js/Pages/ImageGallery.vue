@@ -13,6 +13,11 @@
                 </ul>
                 <PaginationLinks :pagination="images" class="mt-6 mb-10"></PaginationLinks>
             </div>
+            <div class="text-center" v-else>
+
+                <h3 class="mt-2 text-sm font-medium text-gray-900">No Images</h3>
+
+            </div>
         </div>
 
     </layout>
